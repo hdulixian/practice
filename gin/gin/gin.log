@@ -1,0 +1,246 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- welcome.html
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2024/11/09 - 10:05:43 |[97;42m 200 [0m|     277.619µs |       127.0.0.1 |[97;42m PATCH   [0m "/user/33ae4972"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- welcome.html
+	- 
+	- index.html
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- welcome.html
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2024/11/30 - 13:42:04 |[90;43m 404 [0m|      56.458µs |             ::1 |[97;44m GET     [0m "/static/gin.log"
+[GIN-debug] redirecting request 301: /static/ --> /static/
+[GIN] 2024/11/30 - 13:42:22 |[97;42m 200 [0m|     242.458µs |             ::1 |[97;44m GET     [0m "/static/"
+[GIN] 2024/11/30 - 13:42:22 |[90;43m 404 [0m|       1.042µs |             ::1 |[97;44m GET     [0m "/favicon.ico"
+[GIN] 2024/11/30 - 13:42:27 |[97;42m 200 [0m|    5.364417ms |             ::1 |[97;44m GET     [0m "/static/go.work"
+[GIN] 2024/11/30 - 13:42:35 |[97;42m 200 [0m|     422.709µs |             ::1 |[97;44m GET     [0m "/static/logger/"
+[GIN] 2024/11/30 - 13:42:37 |[97;42m 200 [0m|     394.209µs |             ::1 |[97;44m GET     [0m "/static/logger/main.go"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- welcome.html
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2024/11/30 - 13:43:35 |[90;47m 304 [0m|     236.334µs |             ::1 |[97;44m GET     [0m "/static/"
+[GIN] 2024/11/30 - 13:43:37 |[90;47m 304 [0m|     226.333µs |             ::1 |[97;44m GET     [0m "/static/"
+[GIN] 2024/11/30 - 13:43:59 |[90;43m 404 [0m|     132.625µs |             ::1 |[97;44m GET     [0m "/static/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- welcome.html
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2024/11/30 - 13:44:14 |[97;42m 200 [0m|         347µs |             ::1 |[97;44m GET     [0m "/static/"
+[GIN] 2024/11/30 - 13:44:24 |[97;42m 200 [0m|     757.917µs |             ::1 |[97;44m GET     [0m "/static/Kafka/"
+[GIN] 2024/11/30 - 13:44:25 |[97;42m 200 [0m|    2.135042ms |             ::1 |[97;44m GET     [0m "/static/Kafka/22. 消息队列：消息队列可以用来解决什么问题？.md"
+[GIN] 2024/11/30 - 13:44:40 |[97;42m 200 [0m|     441.791µs |             ::1 |[97;44m GET     [0m "/static/微服务架构/"
+[GIN] 2024/11/30 - 13:44:42 |[97;42m 200 [0m|     692.583µs |             ::1 |[97;44m GET     [0m "/static/微服务架构/01. 服务注册与发现：AP和CP，你选哪个？.md"
+[GIN] 2024/11/30 - 13:45:10 |[97;42m 200 [0m|    1.029791ms |             ::1 |[97;44m GET     [0m "/welcome"
+[GIN] 2024/11/30 - 13:45:10 |[90;43m 404 [0m|         959ns |             ::1 |[97;44m GET     [0m "/styles.css"
+[GIN] 2024/11/30 - 13:45:10 |[90;43m 404 [0m|         375ns |             ::1 |[97;44m GET     [0m "/scripts.js"
+[GIN] 2024/11/30 - 13:45:15 |[97;42m 200 [0m|    1.155625ms |             ::1 |[97;44m GET     [0m "/index"
+[GIN] 2024/11/30 - 13:45:15 |[90;43m 404 [0m|         750ns |             ::1 |[97;44m GET     [0m "/styles.css"
+[GIN] 2024/11/30 - 13:45:15 |[90;43m 404 [0m|         500ns |             ::1 |[97;44m GET     [0m "/scripts.js"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- welcome.html
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2024/11/30 - 13:46:19 |[97;42m 200 [0m|       519.5µs |             ::1 |[97;44m GET     [0m "/index"
+Error #01: html/template: "common/index.html" is undefined
+[GIN] 2024/11/30 - 13:46:54 |[90;47m 302 [0m|      47.292µs |             ::1 |[97;44m GET     [0m "/go.work"
+[GIN] 2024/11/30 - 13:47:09 |[97;42m 200 [0m|     393.459µs |             ::1 |[97;44m GET     [0m "/go.work.sum"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- index.html
+	- welcome.html
+	- 
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2024/11/30 - 17:57:59 |[90;47m 301 [0m|      55.875µs |             ::1 |[97;44m GET     [0m "/go.work"
+[GIN] 2024/11/30 - 17:57:59 |[97;42m 200 [0m|    3.931208ms |             ::1 |[97;44m GET     [0m "/static/lru.go"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (3): 
+	- welcome.html
+	- 
+	- index.html
+
+[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /index                    --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /go.work                  --> main.main.func3 (3 handlers)
+[GIN-debug] GET    /go.work.sum              --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /uploads                  --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /user                     --> gin/user.(*UserController).GetUserList-fm (3 handlers)
+[GIN-debug] GET    /user/:id                 --> gin/user.(*UserController).GetUserInfo-fm (3 handlers)
+[GIN-debug] POST   /user                     --> gin/user.(*UserController).CreateUser-fm (3 handlers)
+[GIN-debug] PATCH  /user/:id                 --> gin/user.(*UserController).UpdateUser-fm (3 handlers)
+[GIN-debug] DELETE /user/:id                 --> gin/user.(*UserController).DeleteUser-fm (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2024/11/30 - 18:04:42 |[97;42m 200 [0m|    8.220042ms |       127.0.0.1 |[97;46m POST    [0m "/upload"
+[GIN] 2024/11/30 - 18:05:26 |[97;42m 200 [0m|   13.179583ms |       127.0.0.1 |[97;46m POST    [0m "/uploads"
